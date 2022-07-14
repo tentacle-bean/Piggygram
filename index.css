@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    background-color: #F5F5F5;
+}
+
+#container{
+    width: 375px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    border-bottom: 1px solid #C6C6C6;
+    height:67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post{
+    padding-bottom: 36px;
+}
+
+.op{
+    display: flex;
+    justify-content: start;
+}
+
+.op-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description{
+    margin: 20px 13px 0px 10px;
+}
+
+
+
+/* typography */
+
+.logo{
+    font-family: Billabong;
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+.op-name, .likes, .comment{
+    font-size: 13px;
+}
+
+.op-name, .op-location{
+    margin: 0;
+}
+
+.op-location{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.likes{
+    margin: 10px 0 13px 3px;
+}
+
+.comment{
+    margin: 0 0 0 3px;
+}
+
+.bold-text{
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+
+
+/* images */
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.user-avatar{
+    margin-right: 16px;
+}
+
+.op-avatar{
+    margin: 10px 7px 10px 10px;
+}
+
+.post-pic{
+    width: 375px;
+}
+
+.post-pic:hover,
+.post-pic:active{
+    cursor: pointer;
+}
+
+.icon{
+    width: 25px;
+    margin-right: 12px;
+}
+
+.icon:hover,
+.icon:active{
+    opacity: 50%;
+    cursor: pointer;
+}
